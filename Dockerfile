@@ -7,5 +7,4 @@ WORKDIR /data
 # Expose default n8n port
 EXPOSE 5678
 
-# Start n8n
-CMD ["tini", "--", "n8n"]
+
